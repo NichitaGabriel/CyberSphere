@@ -26,3 +26,9 @@ input::-webkit-inner-spin-button {
   background-color: var(--teal_hover);
   border: var(--teal_hover);
 }
+
+.h-line {
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
