@@ -35,22 +35,22 @@
     <div class="swiper swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="images/carousel/IMG_15372.png" class="w-100 d-block">
+          <img src="resources/images/carousel/IMG_15372.png" class="w-100 d-block">
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/IMG_40905.png" class="w-100 d-block">
+          <img src="resources/images/carousel/IMG_40905.png" class="w-100 d-block">
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/IMG_55677.png" class="w-100 d-block">
+          <img src="resources/images/carousel/IMG_55677.png" class="w-100 d-block">
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/IMG_62045.png" class="w-100 d-block">
+          <img src="resources/images/carousel/IMG_62045.png" class="w-100 d-block">
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/IMG_93127.png" class="w-100 d-block">
+          <img src="resources/images/carousel/IMG_93127.png" class="w-100 d-block">
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/IMG_99736.png" class="w-100 d-block">
+          <img src="resources/images/carousel/IMG_99736.png" class="w-100 d-block">
         </div>
       </div>
     </div>
@@ -106,7 +106,7 @@
 
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-          <img src="images/rooms/1.jpg" class="card-img-top">
+          <img src="resources/images/rooms/1.jpg" class="card-img-top">
           <div class="card-body">
             <h5>Simple Room Name</h5>
             <h6 class="mb-4">200&euro; per night</h6>
@@ -160,7 +160,7 @@
 
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-          <img src="images/rooms/1.jpg" class="card-img-top">
+          <img src="resources/images/rooms/1.jpg" class="card-img-top">
           <div class="card-body">
             <h5>Simple Room Name</h5>
             <h6 class="mb-4">200&euro; per night</h6>
@@ -214,7 +214,7 @@
 
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-          <img src="images/rooms/1.jpg" class="card-img-top">
+          <img src="resources/images/rooms/1.jpg" class="card-img-top">
           <div class="card-body">
             <h5>Simple Room Name</h5>
             <h6 class="mb-4">200&euro; per night</h6>
@@ -279,27 +279,27 @@
     <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
 
       <div class="col-lg-2 col-md-6 text-center bg-white rounded shadow py-4 my-3">
-        <img src="images/facilities/IMG_43553.svg" width="80px">
+        <img src="resources/images/facilities/IMG_43553.svg" width="80px">
         <h5 class="mt-3">Wifi</h5>
       </div>
 
       <div class="col-lg-2 col-md-6 text-center bg-white rounded shadow py-4 my-3">
-        <img src="images/facilities/IMG_27079.svg" width="80px">
+        <img src="resources/images/facilities/IMG_27079.svg" width="80px">
         <h5 class="mt-3">Room Heater</h5>
       </div>
 
       <div class="col-lg-2 col-md-6 text-center bg-white rounded shadow py-4 my-3">
-        <img src="images/facilities/IMG_41622.svg" width="80px">>
+        <img src="resources/images/facilities/IMG_41622.svg" width="80px">>
         <h5 class="mt-3">TV</h5>
       </div>
 
       <div class="col-lg-2 col-md-6 text-center bg-white rounded shadow py-4 my-3">
-        <img src="images/facilities/IMG_47816.svg" width="80px">
+        <img src="resources/images/facilities/IMG_47816.svg" width="80px">
         <h5 class="mt-3">SPA</h5>
       </div>
 
       <div class="col-lg-2 col-md-6 text-center bg-white rounded shadow py-4 my-3">
-        <img src="images/facilities/IMG_49949.svg" width="80px">
+        <img src="resources/images/facilities/IMG_49949.svg" width="80px">
         <h5 class="mt-3">AC</h5>
       </div>
       <div class="col-lg-12 text-center mt-5">
@@ -316,7 +316,7 @@
       <div class="swiper-wrapper mb-5">
         <div class="swiper-slide bg-white p-4">
           <div class="profile d-flex align-items-center mb-3">
-            <img src="images/about/customers.svg" width="30px">
+            <img src="resources/images/about/customers.svg" width="30px">
             <h6 class="m-0 ms-2">Random User</h6>
           </div>
           <p>
@@ -333,7 +333,7 @@
         </div>
         <div class="swiper-slide bg-white p-4">
           <div class="profile d-flex align-items-center mb-3">
-            <img src="images/about/customers.svg" width="30px">
+            <img src="resources/images/about/customers.svg" width="30px">
             <h6 class="m-0 ms-2">Random User</h6>
           </div>
           <p>
@@ -350,7 +350,7 @@
         </div>
         <div class="swiper-slide bg-white p-4">
           <div class="profile d-flex align-items-center mb-3">
-            <img src="images/about/customers.svg" width="30px">
+            <img src="resources/images/about/customers.svg" width="30px">
             <h6 class="m-0 ms-2">Random User</h6>
           </div>
           <p>
