@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cruz Travels - Home</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <?php require("include/links.php") ?>
+  <?php require("inc/links.php") ?>
 
   <style>
     .availability-form {
@@ -27,7 +27,7 @@
 
 <body class="bg-light">
 
-  <?php require("include/header.php"); ?>
+  <?php require("inc/header.php"); ?>
 
   <!-- Sub Header - Carousel -->
 
@@ -424,7 +424,7 @@
 
   <!-- Footer -->
 
-  <?php require("include/footer.php"); ?>
+  <?php require("inc/footer.php"); ?>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
