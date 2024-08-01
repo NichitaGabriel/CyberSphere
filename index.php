@@ -316,7 +316,7 @@
       </div>
 
       <div class="col-lg-2 col-md-6 text-center bg-white rounded shadow py-4 my-3">
-        <img src="resources/images/facilities/IMG_41622.svg" width="80px">>
+        <img src="resources/images/facilities/IMG_41622.svg" width="80px">
         <h5 class="mt-3">TV</h5>
       </div>
 
