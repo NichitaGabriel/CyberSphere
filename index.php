@@ -30,7 +30,6 @@
   <?php require("inc/header.php"); ?>
 
   <!-- Sub Header - Carousel -->
-
   <div class="container-fluid px-lg-4 mt-4">
     <div class="swiper swiper-container">
       <div class="swiper-wrapper">
@@ -57,7 +56,6 @@
   </div>
 
   <!-- Search Engine -->
-
   <div class="container availability-form">
     <div class="row">
       <div class="col-lg-12 bg-white shadow p-4 rounded">
@@ -401,49 +399,64 @@
   </div>
 
   <!-- Reach US -->
-
-
   <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">REACH US</h2>
 
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
-        <iframe class="w-100 rounded" height="320px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.7763454720957!2d26.099078976683447!3d44.43774980133601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff464ca3c061%3A0x5026318f7feaebe!2sRoua%20Travel!5e0!3m2!1sro!2sro!4v1722347156444!5m2!1sro!2sro" loading="lazy"></iframe>
+        <iframe class="w-100 rounded" height="320px" src="<?php echo $contact_r['iframe'] ?>" loading="lazy"></iframe>
       </div>
       <div class="col-lg-4 col-md-4">
         <div class="bg-white  p-4 rounded mb-4">
           <h5>Call us</h5>
-          <a href="tel: +40777999777" class="d-inline-block mb-2 text-decoration-none text-dark">
-            <i class="bi bi-telephone-fill"></i> +40777999777
+          <a href="tel: +<?php echo $contact_r['pn1'] ?>" class="d-inline-block mb-2 text-decoration-none text-dark">
+            <i class="bi bi-telephone-fill"></i> +<?php echo $contact_r['pn1'] ?>
           </a>
           <br>
-          <a href="tel: +40777999777" class="d-inline-block text-decoration-none text-dark">
-            <i class="bi bi-telephone-fill"></i> +40888555333
-          </a>
+
+          <?php
+          if ($contact_r['pn2'] != '') {
+            echo <<<data
+            <a href="tel: +$contact_r[pn2]" class="d-inline-block text-decoration-none text-dark">
+              <i class="bi bi-telephone-fill"></i> +$contact_r[pn2]
+            </a>
+            data;
+          }
+          ?>
+
         </div>
 
         <div class="bg-white  p-4 rounded mb-4">
           <h5>Follow us</h5>
-          <a href="#" class="d-inline-block mb-3">
-            <span class="badge bg-light text-dark fs-6 p-2">
-              <i class="bi bi-twitter-x me-1"></i> / <i class="bi bi-twitter"></i>
-              Twitter
+          <?php
+          if ($contact_r['tw'] != '') {
+            echo <<<data
+              <a href="$contact_r[tw]" class="d-inline-block mb-3">
+                <span class="badge bg-light text-dark fs-6 p-2">
+                  <i class="bi bi-twitter-x me-1"></i>
+                  Twitter
+                </span>
+              </a>
+              <br>
+            data;
+          }
+          ?>
+
+          <a href="<?php echo $contact_r['fb'] ?>" class="d-inline-block">
+            <span class="badge bg-light text-dark fs-6 p-2 mb-3">
+              <i class="bi bi-facebook me-1"></i>
+              Facebook
             </span>
           </a>
           <br>
-          <a href="#" class="d-inline-block mb-3">
+
+          <a href="<?php echo $contact_r['insta'] ?>" class="d-inline-block ">
             <span class="badge bg-light text-dark fs-6 p-2">
               <i class="bi bi-instagram me-1"></i>
               Instagram
             </span>
           </a>
-          <br>
-          <a href="#" class="d-inline-block">
-            <span class="badge bg-light text-dark fs-6 p-2">
-              <i class="bi bi-facebook me-1"></i>
-              Facebook
-            </span>
-          </a>
+
         </div>
       </div>
     </div>
