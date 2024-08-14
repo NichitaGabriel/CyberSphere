@@ -4,11 +4,13 @@
 
 define('SITE_URL', 'http://127.0.0.1/cybersphere/');
 define('ABOUT_IMG_PATH', SITE_URL . 'resources/images/about/');
+define('CAROUSEL_IMG_PATH', SITE_URL . 'resources/images/carousel/');
 
 //backend upload process needs this data
 
 define('UPLOAD_IMAGE_PATH', $_SERVER['DOCUMENT_ROOT'] . '/cybersphere/resources/images/');
 define('ABOUT_FOLDER', 'about/');
+define('CAROUSEL_FOLDER', 'carousel/');
 
 function adminLogin()
 {
@@ -39,7 +41,7 @@ function alert($type, $msg)
 
 function uploadImage($image, $folder)
 {
-  $valid_mime = ['image/jpeg', 'image/jpg', 'image/webp'];
+  $valid_mime = ['image/jpeg', 'image/jpg', 'image/webp', 'image/png'];
   $img_mime = $image['type'];
 
   if (!in_array($img_mime, $valid_mime)) {
