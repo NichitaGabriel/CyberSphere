@@ -2,7 +2,7 @@
 
 //frontend purpose data
 
-define('SITE_URL', 'http://127.0.0.1/cybersphere/');
+define('SITE_URL', 'http://192.168.1.251/cybersphere/');
 define('ABOUT_IMG_PATH', SITE_URL . 'resources/images/about/');
 define('CAROUSEL_IMG_PATH', SITE_URL . 'resources/images/carousel/');
 define('FACILITIES_IMG_PATH', SITE_URL . 'resources/images/facilities/');
