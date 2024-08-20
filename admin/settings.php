@@ -226,12 +226,9 @@ adminLogin();
                 <i class="bi bi-plus-square"></i> Add
               </button>
             </div>
-
             <div class="row" id="team-data">
 
             </div>
-
-
           </div>
         </div>
 
